@@ -3,7 +3,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background: #fefdf9;
+  background: #fdfaf3; /* light sandy background */
   color: #333;
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #3e5c4e; /* forest green */
+  background: #2e8fa5; /* ocean blue */
   color: white;
   padding: 1.5rem 2rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
@@ -27,13 +27,14 @@ header {
   font-size: 2rem;
 }
 
+/* Navigation */
 .nav-right {
   display: flex;
   gap: 2rem;
 }
 
 .nav-right a {
-  color: #e0f7f1;
+  color: #f0fdfb; /* soft light aqua */
   text-decoration: none;
   font-weight: 600;
   position: relative;
@@ -45,7 +46,7 @@ header {
   display: block;
   width: 0%;
   height: 2px;
-  background: #b2dfdb;
+  background: #ffccbc; /* light coral accent */
   transition: width 0.3s;
   position: absolute;
   bottom: -5px;
@@ -57,7 +58,7 @@ header {
 }
 
 .nav-right a:hover {
-  color: #b2dfdb;
+  color: #ffe0b2; /* warm sand hover */
 }
 
 /* Main content */
@@ -72,7 +73,7 @@ main {
 
 h2 {
   font-family: 'Playfair Display', serif;
-  color: #4a6b55;
+  color: #00796b; /* teal like sea glass */
   margin-bottom: 1rem;
   font-size: 1.75rem;
 }
@@ -88,14 +89,14 @@ li {
 }
 
 li:hover {
-  color: #2e7d32;
+  color: #f57c00; /* sunset orange */
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem;
-  background: #3e5c4e;
+  background: #2e8fa5; /* same as header */
   color: #fff;
   font-size: 0.95rem;
   margin-top: 4rem;
@@ -104,7 +105,7 @@ footer {
 
 /* Links inside content */
 a {
-  color: #3e5c4e;
+  color: #00796b;
   font-weight: 600;
   text-decoration: none;
 }
